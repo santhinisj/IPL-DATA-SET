@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        window.data = <%- winnersPerYear %>
+        console.log(JSON.stringify(window.data));
+        console.log((window.data));
+    </script>
+    <script src="charts2.js"></script>
+</body>
+
+</html>
